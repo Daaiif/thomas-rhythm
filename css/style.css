@@ -70,6 +70,7 @@ blockquote {
 */
 .default-section {
 	padding: 135px 0;
+	overflow: hidden;
 }
 
 .small-section {
@@ -102,13 +103,14 @@ blockquote {
 }
 .title.section-title-light {
 	font-size: 18px;
-	letter-spacing: .3em;
-	margin-bottom: 20px;
+	letter-spacing: .313em;
+	margin-bottom: 15px;
 	font-weight: 300;
 }
 
 .default-text {
-	font-size: 15px;
+	font-size: 12px;
+	letter-spacing: .313em;
 	line-height: 1.7333;
 	font-weight: 300;
 }
@@ -159,6 +161,7 @@ blockquote span,
 }
 /* ===== Default component end ===== */
 /* ===== Custom styles start ===== */
+/* ---- intro ---- */
 .intro {
 	background: url('../img/bg-main.jpg') no-repeat center / cover;
 	height: 100vh;
@@ -216,4 +219,37 @@ blockquote span,
 	opacity: 0.5;
 	text-transform: none;
 }
+/* ---- intro end ---- */
+/* ---- About studio ---- */
+.team-wrapper {
+	overflow: hidden;
+	width: 100%;
+}
+.team-item-info {
+	margin-top: 30px;
+}
+.team-item-info span{
+	display: block;
+	text-transform: uppercase;
+}
+.team-item-name {
+	letter-spacing: .5em;
+	margin-bottom: 15px;
+}
+.team-item .team-item-img {
+	position: relative;
+}
+.team-item .team-item-skills {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	transition: all .2s linear;
+}
+.team-item .team-item-img:hover .team-item-skills {
+	opacity: 1;
+}
+/* ---- About studio end ---- */
 /* ===== Custom styles end ===== */
