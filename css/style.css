@@ -108,7 +108,7 @@ blockquote {
 }
 
 .default-text {
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: .313em;
 	line-height: 1.7333;
 	font-weight: 300;
@@ -221,7 +221,6 @@ blockquote span,
 /* ---- intro end ---- */
 /* ---- About studio ---- */
 .team-wrapper {
-	overflow: hidden;
 	width: 100%;
 	margin-top: 100px;
 }
@@ -252,4 +251,12 @@ blockquote span,
 	opacity: 1;
 }
 /* ---- About studio end ---- */
+/* ---- why choose us? start ---- */
+.default-section.why-choose-us .row {
+	margin-bottom: 85px;
+}
+.skills-img {
+	margin-bottom: 35px;
+}
+/* ---- why choose us? end ---- */
 /* ===== Custom styles end ===== */
