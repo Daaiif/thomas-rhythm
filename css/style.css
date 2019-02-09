@@ -255,6 +255,9 @@ blockquote span,
 .default-section.why-choose-us .row {
 	margin-bottom: 85px;
 }
+.title.section-title-light.skill-name {
+	margin-bottom: 35px;
+}
 .skills-img {
 	margin-bottom: 35px;
 }
