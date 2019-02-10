@@ -2,6 +2,9 @@
 *{
 	box-sizing: border-box;
 }
+*:focus {
+	outline: none;
+}
 body{
 	margin: 0;
 	background-color: #fff;
@@ -134,6 +137,7 @@ blockquote span,
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 400;
+	letter-spacing: .2em;
 }
 
 .btn.btn-default {
@@ -251,9 +255,22 @@ blockquote span,
 	opacity: 1;
 }
 /* ---- About studio end ---- */
+
+/* ---- Servises ----- */
+
+#tabs .tabs-nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+#tabs .tabs-nav li span {
+	display: block;
+}
+
+/* ---- Servises end ----- */
 /* ---- why choose us? start ---- */
-.default-section.why-choose-us .row {
-	margin-bottom: 85px;
+.why-choose-us .row + .row {
+	margin-top: 85px;
 }
 .title.section-title-light.skill-name {
 	margin-bottom: 35px;
