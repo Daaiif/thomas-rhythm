@@ -257,7 +257,12 @@ blockquote span,
 /* ---- About studio end ---- */
 
 /* ---- Servises ----- */
-
+.ui-tabs-tab {
+	transition: all .5s linear;
+}
+.ui-tabs-tab:hover {
+	color: #111;
+}
 #tabs .tabs-nav li {
 	float: left;
 	width: 20%;
@@ -266,6 +271,15 @@ blockquote span,
 #tabs .tabs-nav li span {
 	display: block;
 }
+
+.icon::before {
+	font-size: 50px;
+}
+#tabs .name-chapter {
+	margin-bottom: 80px;
+	margin-top: 40px;
+}
+
 
 /* ---- Servises end ----- */
 /* ---- why choose us? start ---- */
