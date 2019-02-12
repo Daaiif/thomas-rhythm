@@ -299,13 +299,21 @@ blockquote span,
 	color: #999;
 	letter-spacing: .4em
 }
+.news-img img {
+	filter: grayscale(100%);
+	transition: all .5s linear;
+}
+.news-img img:hover {
+	filter: grayscale(0%);
+}
 .news-title {
 	margin-top: 30px;
+	letter-spacing: .3em;
 }
 .name-editordate {
 	font-size: 11px;
 	color: #999;
-	letter-spacing: .2em;
+	letter-spacing: .3em;
 	text-transform: uppercase;
 	margin-top: 20px;
 	margin-bottom: 30px;
