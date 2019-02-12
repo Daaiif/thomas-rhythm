@@ -293,4 +293,11 @@ blockquote span,
 	margin-bottom: 35px;
 }
 /* ---- why choose us? end ---- */
+/* ---- Latest news start ---- */
+.news-bloog a {
+	font-size: 11px;
+	color: #999;
+	letter-spacing: .4em
+}
+/* ---- Latest news end ---- */
 /* ===== Custom styles end ===== */
