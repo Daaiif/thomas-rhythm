@@ -112,7 +112,6 @@ blockquote {
 
 .default-text {
 	font-size: 14px;
-	letter-spacing: .313em;
 	line-height: 1.7333;
 	font-weight: 300;
 }
@@ -327,4 +326,16 @@ blockquote span,
 	font-weight: 300;
 }
 /* ---- Latest news end ---- */
+/* ---- Lets talk start ---- */
+.lets-talk-content {
+	padding: 140px 0;
+}
+.lets-talk-content p {
+	color: rgba(255, 255, 255, .7);
+	margin-bottom: 35px;
+}
+.lets-talk .lets-talk-img {
+	margin-top: -32px;
+}
+/* ---- Lets talk end ---- */
 /* ===== Custom styles end ===== */
