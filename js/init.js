@@ -1,4 +1,5 @@
 $( function() {
-  // Init tabs 
+  // Init tabs
     $( "#tabs" ).tabs();
+    $( "#tabs-portfolio" ).tabs();
 });

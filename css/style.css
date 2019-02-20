@@ -388,4 +388,13 @@ textarea.form-control {
 }
 /* ---- Subscribe end ----*/
 
+/* ---- Portfolio start ---- */
+.portfolio-info .portfolio-info-text {
+	font-size: 15px;
+	line-height: 1.7333em;
+	max-width: 750px;
+	margin: auto;
+}
+/* ---- Portfolio end ---- */
+
 /* ===== Custom styles end ===== */
