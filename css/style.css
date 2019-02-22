@@ -395,6 +395,9 @@ textarea.form-control {
 	max-width: 750px;
 	margin: auto;
 }
+.portfolio-tabs-wraper {
+	height: 100vh;
+}
 #tabs-portfolio {
 	width: 100%;
 }
@@ -427,5 +430,11 @@ textarea.form-control {
 		filter: grayscale(0%);
 }
 /* ---- Portfolio end ---- */
+
+/* ---- Creative-works start ---- */
+.creative-works {
+	margin-top: 30px;
+}
+/* ---- Creative-works end ---- */
 
 /* ===== Custom styles end ===== */
