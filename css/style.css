@@ -292,15 +292,12 @@ textarea.form-control {
 .team-item .team-item-img:hover .team-item-skills {
 	opacity: 1;
 }
+.team-item .team-item-role {
+	letter-spacing: .4em;
+}
 /* ---- About studio end ---- */
 
 /* ---- Servises ----- */
-.ui-tabs-tab {
-	transition: all .2s linear;
-}
-.ui-tabs-tab:active {
-	color: #111;
-}
 #tabs .tabs-nav li {
 	float: left;
 	width: 20%;
@@ -309,16 +306,24 @@ textarea.form-control {
 #tabs .tabs-nav li span {
 	display: block;
 }
-
 .icon::before {
 	font-size: 50px;
 }
 #tabs .name-chapter {
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: .4em;
 	margin-bottom: 80px;
 	margin-top: 40px;
+	text-transform: uppercase;
 }
-
-
+.ui-tabs-tab {
+	transition: all .2s linear;
+}
+.ui-tabs-tab:active {
+	color: #111;
+}
 /* ---- Servises end ----- */
 /* ---- why choose us? start ---- */
 .why-choose-us .row + .row {
@@ -395,8 +400,8 @@ textarea.form-control {
 	max-width: 750px;
 	margin: auto;
 }
-.portfolio-tabs-wraper {
-	height: 100vh;
+.portfolio .tabs-wraper {
+	overflow: hidden;
 }
 #tabs-portfolio {
 	width: 100%;
@@ -432,9 +437,9 @@ textarea.form-control {
 /* ---- Portfolio end ---- */
 
 /* ---- Creative-works start ---- */
-.creative-works {
+/* .creative-works {
 	margin-top: 30px;
-}
+} */
 /* ---- Creative-works end ---- */
 
 /* ===== Custom styles end ===== */
