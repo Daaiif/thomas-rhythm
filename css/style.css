@@ -270,6 +270,7 @@ textarea.form-control {
 	margin-top: 30px;
 }
 .team-item-info span{
+	font-family: 'Dosis', sans-serif;
 	display: block;
 	text-transform: uppercase;
 }
@@ -298,6 +299,10 @@ textarea.form-control {
 /* ---- About studio end ---- */
 
 /* ---- Servises ----- */
+#tabs .tabs-nav {
+	overflow: hidden;
+	margin-bottom: 80px;
+}
 #tabs .tabs-nav li {
 	float: left;
 	width: 20%;
@@ -314,7 +319,6 @@ textarea.form-control {
 	font-size: 14px;
 	font-weight: 300;
 	letter-spacing: .4em;
-	margin-bottom: 80px;
 	margin-top: 40px;
 	text-transform: uppercase;
 }
@@ -400,27 +404,25 @@ textarea.form-control {
 	max-width: 750px;
 	margin: auto;
 }
-.portfolio .tabs-wraper {
-	overflow: hidden;
-}
 #tabs-portfolio {
 	width: 100%;
+	overflow: hidden;
+	text-align: center;
 }
 #tabs-portfolio .tabs-nav {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-		margin-bottom: 50px;
+	display: inline-block;
+	margin-bottom: 50px;
 }
-#tabs-portfolio .tabs-nav li + li {
-	margin-left: 69px;
-}
-#tabs-portfolio .tabs-nav span {
+#tabs-portfolio .tabs-nav li {
+	float: left;
 	font-family: 'Dosis', sans-serif;
 	font-size: 13px;
 	font-weight: 300;
 	letter-spacing: .4em;
 	text-transform: uppercase;
+}
+#tabs-portfolio .tabs-nav li + li {
+	margin-left: 65px;
 }
 #all-works .portfolio-item {
 	width: 33.33333%;
