@@ -371,7 +371,61 @@ textarea.form-control {
 	background-color: #000;
 	border-color: rgba(255, 255, 255, .8);
 }
+.slide-content {
+	display: flex;
+	flex-direction: column;
+}
+.slide-content p {
+	max-width: 730px;
+	margin: 0 auto;
+	font-size: 15px;
+	color: rgba(255, 255, 255, .50);
+	margin-top: 25px;
+}
+.slide-content .review-author {
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+.slide-content .icon-quote{
+	margin-bottom: 20px;
+}
+.slick-arrow {
+	position: absolute;
+	height: 100%;
+	top: 0;
+}
+.slick-arrow.slick-prev {
+	left: 0
+}
+.slick-arrow.slick-next {
+	right: 0
+}
+.slick-arrow .carousel-button {
+	position: absolute;
+	top: 50%;
+	width: 63px;
+	height: 63px;
+	background: #fff;
+	transform: rotate(-45deg);
+	margin-left: -32px;
+	margin-top: -31px;
+}
+.slick-arrow .carousel-button .fa {
+	position: absolute;
+	transform: rotate(45deg);
+	font-style: 10px;
+}
+.slick-arrow.slick-prev .carousel-button .fa {
+	bottom: 14px;
+	right: 17px;
+}
+.slick-arrow.slick-next .carousel-button .fa {
+	top: 17px;
+	left: 14px;
+}
 /* ---- review carousel end ---- */
+/* */
 /* ---- Latest news start ---- */
 .news-bloog a {
 	font-size: 11px;
