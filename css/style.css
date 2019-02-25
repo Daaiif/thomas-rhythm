@@ -378,7 +378,8 @@ textarea.form-control {
 .slide-content p {
 	max-width: 730px;
 	margin: 0 auto;
-	font-size: 15px;
+	font-size: 18px;
+	line-height: 1.6;
 	color: rgba(255, 255, 255, .50);
 	margin-top: 25px;
 }
