@@ -207,6 +207,23 @@ textarea.form-control {
 .form-info .fa {
 	font-size: 12px;
 }
+.rhomb-icon {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	text-align: center;
+	line-height: 23px;
+	border-radius: 2px;
+	font-size: 14px;
+	transform: rotate(45deg);
+}
+.rhomb-icon i {
+	transform: rotate(-45deg);
+}
+.rhomb-icon.black-icon {
+	color: #fff;
+	background-color: #111;
+}
 /* ===== Default component end ===== */
 /* ===== Custom styles start ===== */
 /* ---- intro ---- */
@@ -543,5 +560,16 @@ textarea.form-control {
 
 /* ---- Creative-works start ---- */
 /* ---- Creative-works end ---- */
-
+/* ---- contact starst ---- */
+.contact-item .contact-item-content {
+	display: inline-block;
+	vertical-align: middle;
+}
+.contact-item .contact-item-content {
+	margin-left: 30px;
+}
+.contact-item .contact-item-content span {
+	display: block;
+}
+/* ---- contact end ---- */
 /* ===== Custom styles end ===== */
