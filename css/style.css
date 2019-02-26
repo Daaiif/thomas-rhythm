@@ -566,10 +566,18 @@ textarea.form-control {
 	vertical-align: middle;
 }
 .contact-item .contact-item-content {
-	margin-left: 30px;
+	margin-left: 15px;
 }
 .contact-item .contact-item-content span {
 	display: block;
+}
+.contact-item .contact-item-content .contact-title {
+	font-size: 12px;
+	color: #777;
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	margin-bottom: 15px;
 }
 /* ---- contact end ---- */
 /* ===== Custom styles end ===== */
