@@ -83,6 +83,12 @@ blockquote {
 	margin-left: auto;
 	margin-right: auto;
 }
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
 /* ===== Default classes end */
 /* ===== Default component start ===== */
 /*
@@ -197,7 +203,8 @@ blockquote span,
 	border-color: #111;
 }
 textarea.form-control {
-	min-height: 82px;
+	min-height: 90px;
+	padding-top: 10px;
 }
 .form-info {
 	font-size: 11px;
@@ -561,6 +568,9 @@ textarea.form-control {
 /* ---- Creative-works start ---- */
 /* ---- Creative-works end ---- */
 /* ---- contact starst ---- */
+.contact-items-wrapper {
+	margin-bottom: 80px;
+}
 .contact-item .contact-item-content {
 	display: inline-block;
 	vertical-align: middle;
@@ -578,6 +588,28 @@ textarea.form-control {
 	text-transform: uppercase;
 	letter-spacing: .3em;
 	margin-bottom: 15px;
+}
+.contact-form {
+	margin: 0 -5px;
+	overflow: hidden;
+}
+.contact-form .form-col {
+	float: left;
+	width: 50%;
+	padding: 0 5px;
+}
+.contact-form .form-control + .form-control {
+	margin-top: 10px;
+}
+.contact-form .form-info span {
+	line-height: 75px;
+	font-size: 11px;
+}
+.contact-form .form-info span i {
+	margin-right: 3px;
+}
+.contact-form button {
+	margin-top: 20px;
 }
 /* ---- contact end ---- */
 /* ===== Custom styles end ===== */
