@@ -231,6 +231,10 @@ textarea.form-control {
 	color: #fff;
 	background-color: #111;
 }
+.rhomb-icon.white-icon {
+	color: #111;
+	background-color: #fff;
+}
 /* ===== Default component end ===== */
 /* ===== Custom styles start ===== */
 /* ---- intro ---- */
@@ -617,5 +621,44 @@ textarea.form-control {
 	height: 410px;
 }
 /* ---- map end ---- */
+
+/* ---- footer start ---- */
+footer {
+	padding-top: 140px;
+	padding-bottom: 60px;
+}
+footer .footer-nav {
+	margin-top: 25px;
+}
+footer .footer-nav li {
+	display: inline-block;
+}
+footer .footer-nav li + li {
+	margin-left: 15px;
+}
+.rhomb-icon.transparent-icon {
+  border: 1px solid #111;
+  color: #111;
+  background-color: transparent;
+}
+footer .copyright {
+  margin-top: 110px;
+}
+footer .copyright span {
+	display: block;
+	line-height: 2;
+}
+footer .copyright .copyright-name {
+  text-transform: uppercase;
+  font-family: 'Dosis';
+  font-size: 12px;
+  color: #111;
+  letter-spacing: .5em;
+}
+footer .copyright .copyright-text {
+  color: #999;
+  font-size: 11px;
+}
+/* ---- footer end ---- */
 
 /* ===== Custom styles end ===== */

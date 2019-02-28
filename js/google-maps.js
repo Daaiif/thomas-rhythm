@@ -31,7 +31,7 @@ function initMap() {
         let mapOptions = {
 
             // How zoomed in you want the map to start at (always required)
-            zoom: 16,
+            zoom: 14,
 
             //scroll zoom false
             scrollwheel: false,
