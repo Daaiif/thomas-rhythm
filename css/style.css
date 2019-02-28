@@ -612,4 +612,10 @@ textarea.form-control {
 	margin-top: 20px;
 }
 /* ---- contact end ---- */
+/* ---- map start ---- */
+#map {
+	height: 410px;
+}
+/* ---- map end ---- */
+
 /* ===== Custom styles end ===== */
