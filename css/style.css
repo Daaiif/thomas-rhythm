@@ -270,10 +270,10 @@ textarea.form-control {
 	opacity: 0.75;
 }
 .header-nav li + li{
-	margin-right: 35px;
+	margin-left: 35px;
 }
 .float-right li{
-	float: right;
+	float: left;
 }
 .home {
 	height: 80%;
@@ -619,6 +619,44 @@ textarea.form-control {
 /* ---- map start ---- */
 #map {
 	height: 410px;
+}
+.map-container {
+	position: relative;
+}
+.on-map-block {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .9);
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+.map-container:hover .on-map-block {
+	display: none;
+}
+.map-container .on-map-block .on-map-content{
+	display: inline-block;
+	vertical-align: middle;
+}
+.map-container .on-map-block::before {
+	display: inline-block;
+	content: '';
+	height: 100%;
+	vertical-align: middle;
+	margin-left: -4px;
+}
+.map-container .on-map-block .on-map-content span {
+	display: block;
+	margin:auto;
+}
+.map-container .on-map-block .on-map-content span + span {
+	margin-top: 30px;
+	font-family: 'Dosis';
+	text-transform: uppercase;
+	color: rgba(255,255,255,.75);
+	font-size: 16px;
+	letter-spacing: .3em;
 }
 /* ---- map end ---- */
 

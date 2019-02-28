@@ -38,11 +38,11 @@
             <!-- header-nav start -->
             <div class="header-nav float-right">
               <ul>
-                <li><a href="#">Contakt</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">Servises</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="#" data-scroll=".home">Home</a></li>
+                <li><a href="#" data-scroll=".about-studio">About</a></li>
+                <li><a href="#" data-scroll=".Servises">Servises</a></li>
+                <li><a href="#" data-scroll=".portfolio">Works</a></li>
+                <li><a href="#" data-scroll=".contacts">Contakt</a></li>
               </ul>
             </div>
             <!-- header-nav end -->
@@ -727,7 +727,14 @@
       <!-- / Contacts -->
       <div class="map-container">
         <div id="map"></div>
+        <div class="on-map-block">
+          <div class="on-map-content">
+            <span class="rhomb-icon white-icon"><i class="fa fa-map-marker"></i></span>
+            <span>Open the map <i class="fa fa-angle-down"></i></span>
+          </div>
+        </div>
       </div>
+      <!-- / map-container -->
     </div>
     <!-- MAIN end -->
     <footer class="bg-grey text-center">
@@ -763,6 +770,8 @@
     <script src="js/google-maps.js"></script>
     <!-- Init plugins -->
     <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Scroll to -->
+    <script src="js/scroll-to.js"></script>
     <!-- Init plugins -->
     <script src="js/init.js"></script>
   </body>
