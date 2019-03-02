@@ -236,11 +236,12 @@ textarea.form-control {
 	background-color: #fff;
 }
 .arrow-up {
-	font-size: 75px;
+	font-size: 50px;
 	color: #c6c6c6;
 	position: fixed;
 	right: 30px;
 	bottom: 30px;
+	cursor: pointer;
 }
 /* ===== Default component end ===== */
 /* ===== Custom styles start ===== */
@@ -331,12 +332,60 @@ textarea.form-control {
 	height: 100%;
 	background-color: #000;
 	transition: all .2s linear;
+	padding: 40px;
+}
+.team-item .team-item-role {
+	letter-spacing: .4em;
 }
 .team-item .team-item-img:hover .team-item-skills {
 	opacity: 1;
 }
-.team-item .team-item-role {
-	letter-spacing: .4em;
+.team-item-skills .title.section-title-light {
+	margin-bottom: 30px;
+}
+.team-item-skills p {
+	font-size: 13px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+.skill-item span{
+	font-size: 11px;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, .9);
+	line-height: 2;
+}
+.skill-item .progress-wrapp {
+	width: 100%;
+	height: 12px;
+	background-color: rgba(255, 255, 255, .15);
+}
+.progress-wrapp .progress {
+	height: 12px;
+	width: 20%;
+	background-color: rgba(255, 255, 255, 0.75);
+	transition: width .6s ease-out;
+}
+.progress-wrapp .progress.design {
+	transition: width .6s ease-out .3s;
+}
+.progress-wrapp .progress.development {
+	transition: width .6s ease-out .2s;
+}
+.progress-wrapp .progress.photography {
+	transition: width .6s ease-out .1s;
+}
+.team-item .team-item-img:hover .branding {
+	width: 60%;
+}
+.team-item .team-item-img:hover .design {
+	width: 75%;
+}
+.team-item .team-item-img:hover .development {
+	width: 70%;
+}
+.team-item .team-item-img:hover .photography {
+	width: 65%;
 }
 /* ---- About studio end ---- */
 
