@@ -235,6 +235,13 @@ textarea.form-control {
 	color: #111;
 	background-color: #fff;
 }
+.arrow-up {
+	font-size: 75px;
+	color: #c6c6c6;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
 /* ===== Default component end ===== */
 /* ===== Custom styles start ===== */
 /* ---- intro ---- */
