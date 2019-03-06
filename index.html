@@ -8,7 +8,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Dosis:300,400|Open+Sans:300,400" rel="stylesheet">
 
 		<!-- Slick style -->
-		<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
 		<!-- Et-line icons -->
 		<link rel="stylesheet" href="css/et-line.css">
@@ -30,7 +30,7 @@
         <!-- header strat -->
         <div class="header">
           <!-- header-content start -->
-          <div class="header-content container">
+          <div class="header-content-container">
             <div class="header-logo">
               <img src="img/mountains.png" alt="">
               <span>Rhythm</span>
@@ -56,11 +56,17 @@
             <div class="title name-person">
               <h1 class="">Thomas Rhythm</h1>
             </div>
-            <div class="title title-white section-title-light who-is-it">
+            <div class="who-is-it">
               <p>Extradinary art director & creative mainimalism lover</p>
+            </div>
+            <div class="rhomb-icon white-icon" data-scroll=".about-studio">
+              <i class="fa fa-chevron-down"></i>
             </div>
           </div>
         </div>
+        <!-- <div class="rhomb-icon white-icon">
+          <i class="fa fa-chevron-down"></i>
+        </div> -->
         <!-- home end -->
       </div>
       <!-- intro end -->
@@ -71,18 +77,18 @@
           </div>
           <!-- / title -->
           <div class="row">
-            <div class="col col-4">
+            <div class="col col-4 col-md-12">
               <blockquote>
                 <p>Design is not making beauty, beaty emerges from selection, affinities , integratio, love</p>
                 <span>- Louis Kahn</span>
               </blockquote>
             </div>
             <!-- / col -->
-            <div class="col col-4">
+            <div class="col col-4 col-md-6">
               <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <!-- / col -->
-            <div class="col col-4">
+            <div class="col col-4 col-md-6">
               <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <!-- / col -->
@@ -736,20 +742,26 @@
               </div>
               <!-- / contact-items-wrapper -->
               <form class="contact-form">
-                <div class="form-col">
-                  <input type="text" name="user-name" id="user-name" class="form-control" placeholder="Name">
-                  <input type="text" name="user-email" id="user-email" class="form-control" placeholder="Email">
+                <div class="form-row">
+                  <div class="form-col">
+                    <input type="text" name="user-name" id="user-name" class="form-control" placeholder="Name">
+                    <input type="text" name="user-email" id="user-email" class="form-control" placeholder="Email">
+                  </div>
+                  <!-- / form-col -->
+                  <div class="form-col">
+                    <textarea name="user-message" id="user-message" class="form-control" placeholder="Message"></textarea>
+                  </div>
+                  <!-- / form-col -->
                 </div>
-                <!-- / form-col -->
-                <div class="form-col">
-                  <textarea name="user-message" id="user-message" class="form-control" placeholder="Message"></textarea>
+                <!-- / form-row -->
+                <div class="form-submit">
+                  <div class="form-info pull-left">
+                    <span><i class="fa fa-info-circle"></i>All the fields are required</span>
+                  </div>
+                  <!-- / form-info -->
+                  <button type="submit" class="btn btn-black pull-right">Submit message</button>
                 </div>
-                <!-- / form-col -->
-                <div class="form-info pull-left">
-                  <span><i class="fa fa-info-circle"></i>All the fields are required</span>
-                </div>
-                <!-- / form-info -->
-                <button type="submit" class="btn btn-black pull-right">Submit message</button>
+                <!-- / form-submit -->
               </form>
               <!-- / contact-form -->
             </div>
@@ -815,5 +827,3 @@
     <script src="js/init.js"></script>
   </body>
 </html>
-
-<!-- AIzaSyBAFd0TTxkv4MYnO0mjnlQ8Qp3redvdl0c -->
