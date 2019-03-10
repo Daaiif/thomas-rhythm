@@ -90,6 +90,9 @@
   .col-lg-12 {
     width: 100%;
   }
+  .d-lg-none {
+    display: none
+  }
 }
 /* Medium devices */
 @media (max-width: 991px) {
@@ -128,5 +131,8 @@
   }
   .col-md-12 {
     width: 100%;
+  }
+  .d-md-none {
+    display: none
   }
 }
