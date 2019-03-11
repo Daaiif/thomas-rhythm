@@ -293,6 +293,10 @@ textarea.form-control {
 	.slicknav_menu {
 		display: block;
 	}
+	.slicknav_nav {
+		text-align: center;
+		background-color: #000;
+	}
 	.header-nav {
 		display: none;
 	}
