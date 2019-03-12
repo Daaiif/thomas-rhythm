@@ -341,16 +341,29 @@ textarea.form-control {
 		margin-bottom: 50px;
 	}
 }
+@media (max-width: 767px) {
+	.intro {
+		height: auto;
+		padding: 150px 0;
+	}
+}
 @media (max-width: 576px) {
 	.title.name-person {
 		font-size: 20px;
 		margin-bottom: 50px;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 320px) {
 	.intro {
 		height: auto;
-		padding: 150px 0;
+		padding: 100px 0;
+	}
+	.title.name-person {
+		font-size: 12px;
+		margin-bottom: 25px;
+	}
+	.home .who-is-it {
+		font-size: 10px;
 	}
 }
 /* ---- intro end ---- */
