@@ -838,6 +838,12 @@ margin-top: 20px;
 		margin-bottom: 20px;
 	}
 }
+@media (max-width: 576px) {
+	.form-submit button {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
 /* ---- contact end ---- */
 /* ---- map start ---- */
 #map {
